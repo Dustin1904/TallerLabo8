@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        nav{
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+        }
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            list-style: none;
+            padding: 0;
+        }
+        .product-item {
+            background-color: #fff;
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+        .product-item h2 {
+            margin: 0 0 10px;
+        }
+        .product-item p {
+            margin: 5px 0;
+        }
+        img{
+            width: 100%;
+            height: 225px;
+        }
+        .contactos{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        footer{
+            background-color: #333;
+        }
+        footer h1{
+            color: #fff;
+        }
+        .contactos{
+            color: #fff;
+        }
+        ul .descripcion{
+            justify-content: center;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href=""> Inicio </a>
+            <a href=""> Productos </a>
+        </nav>
+    </header>
+    <h1>Lista de Productos</h1>
+    <ul class="product-list">
+        <li class="product-item">
+            <h2>Producto 1</h2>
+            <img src="./ram.jpg" alt="">
+            <p class="descripcion"> Memoria RAM 16 2x8 DDR 4 3200hz </p>
+            <p>Precio: $100.00</p>
+        </li>
+        <li class="product-item">
+            <h2>Producto 2</h2>
+            <img src="./mouse.jpg" alt="">
+            <p class="descripcion"> Mouse RGB con 6 teclas, 4 niveles de DPI con contrapeso ajustable y agarre gaming </p>
+            <p>Precio: $20.00</p>
+        </li>
+        <li class="product-item">
+            <h2>Producto 3</h2>
+            <img src="./laptop.jpg" alt="">
+            <p class="descripcion"> Laptop Gamer Asus Tuf Gaming T24 7000Series</p>
+            <p>Precio: $3000.00</p>
+        </li>
+        <li class="product-item">
+            <h2>Producto 4</h2>
+            <img src="./audifonos.jpg" alt="">
+            <p class="descripcion"> Audifonos LogiTech G733 con cancelación de ruido activa Gaming</p>
+            <p>Precio: $400.00</p>
+        </li>
+    </ul> 
+    <footer>
+        <center> <h1> Contactos </h1> </center> 
+        <div class="contactos">
+            <div>
+                <h2> Facebook: </h2>
+                <p> DustinJMS </p>
+            </div>
+            <div>
+                <h2> WhatsApp: </h2>
+                <p> 0979008923 </p>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
